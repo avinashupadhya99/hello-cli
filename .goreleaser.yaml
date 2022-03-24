@@ -11,6 +11,9 @@ builds:
     env:
       - CGO_ENABLED=0
 release:
+  github:
+      owner: avinashupadhya99
+      name: hello-cli
   prerelease: auto
 universal_binaries:
   - replace: true
