@@ -1,0 +1,16 @@
+builds:
+  - binary: hello-cli
+    goos:
+      - windows
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm
+      - arm64
+    env:
+      - CGO_ENABLED=0
+release:
+  prerelease: auto
+universal_binaries:
+  replace: true
